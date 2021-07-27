@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Shivam Abraham, Cards, Mr Abraham, Mr Malware, Mr Berry">
+    <meta name="description" content="A Glassmorphism Web Layout containing Profile Cards and Created BY Shivam Abraham">
+    <title>Cards</title>
+    <link rel="shortcut icon" href="./Images/man.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" data-tilt>
+            <div class="content">
+                <h2>Mr Abraham</h2>
+                <p>Web Developer, Front End Developer.Passionable Web Designer inspired by frontend Mentor and Masters. Designed so Many websites that gives a cool ui feel</p>
+                <a href="https://twitter.com/abraham_shivam">Know More</a>
+            </div>
+        </div>
+        <div class="card" data-tilt>
+            <div class="content">
+                <h2>Mr Malware</h2>
+                <p> Ethical Hacker. A Web Security penetration Tester. Worked with multiple machines and solved lot more security parameters.Love to breach security shield</p>
+                <a href="https://twitter.com/MrMalware_MM">Know More</a>
+            </div>
+        </div>
+        <div class="card" data-tilt>
+            <div class="content">
+                <h2>Mr Berry</h2>
+                <p>Data Analyst.Love to play with data using Excel and lot more. Handled so many CRMS that plays a major role in corporate world</p>
+                <a href="https://www.instagram.com/mr._alby_912/">Know More</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1,
+	});
+    </script>
+</body>
+</html>
